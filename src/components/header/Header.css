@@ -1,0 +1,22 @@
+.navbar {
+  background-color: #1c2b35;
+  height: 80px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.navbar .brand {
+  font-size: 20px;
+  color: #ff9900;
+  font-weight: bold;
+}
+.navbar .links a {
+  text-decoration: none;
+  margin-left: 20px;
+  font-size: 17px;
+  color: #fff;
+  transition: all 0.2s;
+}
+.navbar .links a:hover {
+  color: #ff9900;
+}

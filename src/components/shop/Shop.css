@@ -1,0 +1,20 @@
+.shop-container {
+  display: grid;
+  grid-template-columns: 4fr 1fr;
+  padding: 20px;
+}
+.shop-container .products {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+}
+@media screen and (max-width: 1200px) {
+  .shop-container .products {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+.shop-container .order-summary {
+  position: fixed;
+  top: 30%;
+  right: 2%;
+}
